@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavBarMaster.master.cs" Inherits="WebApps.BOOTSTRAP.NavBarMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="ViewBoot" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li>
+                <a href="BS-SAMPLE1.html">Home</a>
+            </li>
+            <li>
+                <a href="BS-TABLE - STRIPS.html">Login</a>
+            </li>
+            <li>
+                <a href="#">Tutorials</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <br />
+    <asp:ContentPlaceHolder ID="CPH1" runat="server">
+
+    </asp:ContentPlaceHolder>
+</body>
+</html>
